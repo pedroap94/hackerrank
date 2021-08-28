@@ -1,5 +1,6 @@
 package easy;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class StringsIntroduction {
@@ -15,6 +16,6 @@ public class StringsIntroduction {
         } else {
             System.out.println("No");
         }
-        System.out.println(A.charAt(0). + " " + B);
+        System.out.println(A.substring(0, 1).toUpperCase(Locale.ROOT) + A.substring(1, A.length()) + " " + B.substring(0, 1).toUpperCase(Locale.ROOT) + B.substring(1, B.length()));
     }
 }
